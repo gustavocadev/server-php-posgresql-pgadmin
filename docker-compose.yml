@@ -23,7 +23,7 @@ services:
   pgadmin:
     image: dpage/pgadmin4:8.6
     environment:
-      PGADMIN_DEFAULT_EMAIL: gustavocadev@gmail.com
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: admin
     ports:
       - "8080:80"
